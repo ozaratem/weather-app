@@ -10,6 +10,7 @@ export default class WeatherList extends React.Component {
     loading: true,
     weather: null,
     city: null,
+    selectedWeather: null,
   };
 
   // Did Mount action
